@@ -152,3 +152,17 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+// ---------- Footer "Edit site" login button ----------
+document.addEventListener('click', (e) => {
+  const trigger = e.target.closest('#cms-login');
+  if (!trigger) return;
+  e.preventDefault();
+  if (!window.netlifyIdentity) return;
+  const user = window.netlifyIdentity.currentUser();
+  if (user) {
+    document.location.href = '/admin/';
+  } else {
+    window.netlifyIdentity.open();
+  }
+});
