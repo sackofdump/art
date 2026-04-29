@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+node_modules/
+.vercel/
+.netlify/
+
+# Resume PDF — don't commit personal documents
+*.pdf

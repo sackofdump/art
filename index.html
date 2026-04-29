@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Adam Tiran — Senior Multimedia Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="#top">Adam Tiran</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <p class="eyebrow" data-bind="hero.eyebrow"></p>
+      <h1>
+        <span data-bind="hero.heading_line_1"></span><br>
+        <span data-bind="hero.heading_line_2"></span><br>
+        <span data-bind="hero.heading_line_3"></span>
+      </h1>
+      <div class="hero-actions">
+        <a class="btn btn-primary" data-bind="hero.primary_cta_label" data-bind-href="hero.primary_cta_href"></a>
+        <a class="btn btn-ghost" data-bind="hero.secondary_cta_label" data-bind-href="hero.secondary_cta_href"></a>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="section-head">
+        <span class="eyebrow" data-bind="work.eyebrow"></span>
+        <h2 data-bind="work.heading"></h2>
+      </div>
+      <div class="grid" data-render="projects"></div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-grid">
+        <div class="about-copy">
+          <span class="eyebrow" data-bind="about.eyebrow"></span>
+          <h2 data-bind="about.heading"></h2>
+          <div data-render="about-paragraphs"></div>
+        </div>
+
+        <aside class="about-side">
+          <div class="side-block">
+            <span class="eyebrow">Capabilities</span>
+            <ul data-render="capabilities"></ul>
+          </div>
+          <div class="side-block">
+            <span class="eyebrow">Tools</span>
+            <ul class="inline" data-render="tools"></ul>
+          </div>
+          <div class="side-block">
+            <span class="eyebrow">Strengths</span>
+            <ul class="inline" data-render="strengths"></ul>
+          </div>
+          <div class="side-block">
+            <span class="eyebrow">Education</span>
+            <p class="edu">
+              <strong data-bind="about.education_school"></strong><br>
+              <span data-bind="about.education_detail"></span>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="section-head">
+        <span class="eyebrow" data-bind="experience.eyebrow"></span>
+        <h2 data-bind="experience.heading"></h2>
+      </div>
+      <ol class="timeline" data-render="experience"></ol>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-inner">
+        <span class="eyebrow" data-bind="contact.eyebrow"></span>
+        <h2 data-bind="contact.heading"></h2>
+        <p class="lead" data-bind="contact.lead"></p>
+        <div class="contact-grid" data-render="contact"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span data-bind="footer.left"></span>
+    <span data-bind="footer.right"></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

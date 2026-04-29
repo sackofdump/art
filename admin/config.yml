@@ -1,0 +1,111 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: simple
+logo_url: ""
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "content.json"
+        label: "Site"
+        name: "content"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow (small text above heading)", name: "eyebrow", widget: "string" }
+              - { label: "Headline — line 1", name: "heading_line_1", widget: "string" }
+              - { label: "Headline — line 2", name: "heading_line_2", widget: "string" }
+              - { label: "Headline — line 3", name: "heading_line_3", widget: "string" }
+              - { label: "Primary button label", name: "primary_cta_label", widget: "string" }
+              - { label: "Primary button link", name: "primary_cta_href", widget: "string" }
+              - { label: "Secondary button label", name: "secondary_cta_label", widget: "string" }
+              - { label: "Secondary button link", name: "secondary_cta_href", widget: "string" }
+
+          - label: "Work"
+            name: "work"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Projects"
+                name: "projects"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Tag (e.g. Brand · Campaign)", name: "tag", widget: "string" }
+                  - { label: "Image (optional — uses gradient if blank)", name: "image", widget: "image", required: false }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "p", widget: "text" }
+              - label: "Capabilities"
+                name: "capabilities"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+              - label: "Tools"
+                name: "tools"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+              - label: "Strengths"
+                name: "strengths"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+              - { label: "Education — School", name: "education_school", widget: "string" }
+              - { label: "Education — Detail", name: "education_detail", widget: "string" }
+
+          - label: "Experience"
+            name: "experience"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Roles"
+                name: "roles"
+                widget: "list"
+                fields:
+                  - { label: "Years (e.g. 2022 — 2026)", name: "years", widget: "string" }
+                  - { label: "Role / Title", name: "role", widget: "string" }
+                  - { label: "Company · Location", name: "company", widget: "string" }
+                  - label: "Bullets"
+                    name: "bullets"
+                    widget: "list"
+                    field: { label: "Bullet", name: "b", widget: "text" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead text", name: "lead", widget: "text" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone (display, e.g. 608.354.2384)", name: "phone_display", widget: "string" }
+              - { label: "Phone (link, digits only)", name: "phone_link", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Left text", name: "left", widget: "string" }
+              - { label: "Right text", name: "right", widget: "string" }

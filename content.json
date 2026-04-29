@@ -1,0 +1,168 @@
+{
+  "hero": {
+    "eyebrow": "Senior Multimedia Designer · Cross Plains, WI",
+    "heading_line_1": "Building scalable brand systems",
+    "heading_line_2": "across digital, print, and",
+    "heading_line_3": "environmental design.",
+    "primary_cta_label": "View work",
+    "primary_cta_href": "#work",
+    "secondary_cta_label": "Get in touch",
+    "secondary_cta_href": "mailto:atirandesign@gmail.com"
+  },
+  "work": {
+    "eyebrow": "Selected Work",
+    "heading": "Recent projects",
+    "projects": [
+      {
+        "title": "Multi-Channel Campaign System",
+        "description": "UW Credit Union — Digital screens, social, print & internal platforms.",
+        "tag": "Brand · Campaign",
+        "image": ""
+      },
+      {
+        "title": "Branch POP Signage",
+        "description": "Promotional materials deployed across multiple branch locations.",
+        "tag": "Print · Environmental",
+        "image": ""
+      },
+      {
+        "title": "Studio Photography & Video",
+        "description": "Studio operations and content production for org-wide initiatives.",
+        "tag": "Photo · Video",
+        "image": ""
+      },
+      {
+        "title": "Internal Communications",
+        "description": "Visual systems supporting clarity and engagement across the org.",
+        "tag": "Editorial · Systems",
+        "image": ""
+      },
+      {
+        "title": "Digital Screen Templates",
+        "description": "Carousel-driven content templates for high-traffic display networks.",
+        "tag": "Digital · Templates",
+        "image": ""
+      },
+      {
+        "title": "Print Production Workflow",
+        "description": "Press-ready files and color-matched output across offset & digital.",
+        "tag": "Print · Production",
+        "image": ""
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "A designer with a production mindset.",
+    "paragraphs": [
+      "I'm a Senior Multimedia Designer specializing in scalable brand systems across digital, print, environmental, and internal communications. I lead design execution for enterprise-wide initiatives and build visual experiences that support organizational goals and engagement.",
+      "My path runs from the press floor to the design studio — years of prepress and digital print operations gave me a strong eye for color, typography, and the small details that decide whether a piece works in the wild."
+    ],
+    "capabilities": [
+      "Brand Systems & Visual Identity",
+      "Multi-Channel Design",
+      "Typography & Layout Systems",
+      "Photography & Video Production"
+    ],
+    "tools": [
+      "Adobe Creative Suite",
+      "Canto (DAM)",
+      "Carousel",
+      "Monday",
+      "Matterport",
+      "Enfocus PitStop",
+      "Prinergy",
+      "Corel Draw",
+      "Microsoft Suite"
+    ],
+    "strengths": [
+      "Strategic Thinking",
+      "Growth Mindset",
+      "Adaptability",
+      "Collaboration",
+      "Attention to Detail",
+      "Process Improvement"
+    ],
+    "education_school": "Madison College",
+    "education_detail": "Associate Degree, Graphic Design — 2020"
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "heading": "A decade across design & print.",
+    "roles": [
+      {
+        "years": "2026 — Present",
+        "role": "Senior Multimedia Designer",
+        "company": "UW Credit Union · Madison, WI",
+        "bullets": [
+          "Designed multi-channel campaigns across digital screens, social, print, and internal platforms.",
+          "Produced content supporting organization-wide initiatives, improving clarity and engagement.",
+          "Led photography and video production, overseeing studio operations and content creation."
+        ]
+      },
+      {
+        "years": "2022 — 2026",
+        "role": "Graphic Designer",
+        "company": "UW Credit Union · Madison, WI",
+        "bullets": [
+          "Created layouts and visual assets for marketing campaigns, digital screens, and print collateral.",
+          "Executed designs aligned to brand standards across internal and external communications.",
+          "Designed POP signage and promotional materials used across multiple branch locations."
+        ]
+      },
+      {
+        "years": "2022",
+        "role": "Graphic Designer, Prepress",
+        "company": "Park Printing Solutions · Verona, WI",
+        "bullets": [
+          "Produced print-ready designs and ensured accuracy across digital and offset workflows.",
+          "Collaborated with internal teams to improve file preparation efficiency and reduce errors.",
+          "Maintained brand consistency across high-volume client deliverables."
+        ]
+      },
+      {
+        "years": "2020 — 2022",
+        "role": "Pre-Flight Technician",
+        "company": "Madison Forms LLC · McFarland, WI",
+        "bullets": [
+          "Evaluated and prepared customer files for print production — accuracy, color, and layout.",
+          "Created production-ready files and lithographic plates for offset and digital workflows.",
+          "Partnered with internal teams and vendors to maintain quality control and efficiency."
+        ]
+      },
+      {
+        "years": "2018 — 2020",
+        "role": "Digital Press Operator",
+        "company": "Thysse · Oregon, WI",
+        "bullets": [
+          "Calibrated, troubleshot, and ensured optimal print quality.",
+          "Aided sales and CSR teams with print capabilities, efficiency, and cost.",
+          "Verified spot color accuracy across brands and performed press checks for QA."
+        ]
+      },
+      {
+        "years": "2015 — 2018",
+        "role": "Digital Press Operator",
+        "company": "Healthgrades · Madison, WI",
+        "bullets": [
+          "Operated three Kodak digital printers, ensuring consistent, high-quality output.",
+          "Monitored production workflows to meet deadlines and maintain efficiency.",
+          "Operated UV coating machines for high-quality healthcare prints."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let's build something.",
+    "lead": "Open to senior multimedia roles, brand systems projects, and photo/video collaborations.",
+    "email": "atirandesign@gmail.com",
+    "phone_display": "608.354.2384",
+    "phone_link": "6083542384",
+    "location": "Cross Plains, WI"
+  },
+  "footer": {
+    "left": "© 2026 Adam Tiran",
+    "right": "Designed & built in Wisconsin"
+  }
+}
