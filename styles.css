@@ -449,9 +449,6 @@ section { padding: 120px 0; }
 /* ---------- contact ---------- */
 .contact {
   background: var(--bg-alt);
-  margin: 0 -100vw;
-  padding-left: calc(100vw - 50%);
-  padding-right: calc(100vw - 50%);
 }
 .contact-inner {
   max-width: var(--max);
